@@ -1,0 +1,22 @@
+{
+    "sre_team": "sre02",
+    "solution_name": "slo",
+    "environment": "prod",
+    "product_id": "13350",
+    "product_management_zone": "12284_CFC-Infra-Non-Prod",
+    "slo": [
+        {
+            "slo_target": "98",
+            "slo_warning": "99"
+        }
+    ],
+    "monitors": [
+        {
+            "monitor_name": "main",
+            "url": "https://test-login.com",
+            "validation_text_match": "By Testsey",
+            "monitor_enabled": "true",
+            "alerting_enabled": "true"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "sre_team": "sre01",
+    "solution_name": "test",
+    "environment": "prod",
+    "product_id": "13350",
+    "slo": [
+        {
+            "slo_target": "98",
+            "slo_warning": "99"
+        }
+    ],
+    "monitors": [
+        {
+            "monitor_name": "main",
+            "url": "https://dev-login.com",
+            "validation_text_match": "By testsey",
+            "monitor_enabled": "true",
+            "alerting_enabled": "true"
+        }
+    ]
+}
