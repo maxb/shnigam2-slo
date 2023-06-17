@@ -4,14 +4,6 @@ variable "default_mz_name" {
   default     = "12284_CFC-Infra-Prod"
 }
 
-variable "dynatrace_url" {
-  default = "https://xxyz.live.dynatrace.com"
-}
-
-variable "dynatrace_api_token" {
-  default = "xxxxxx1.S35VM5B"
-}
-
 variable "slo_name" {
   description = "Slo Name"
   type = string

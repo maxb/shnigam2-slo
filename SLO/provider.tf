@@ -8,7 +8,3 @@ terraform {
     }
   }
 }
-provider "dynatrace" {
-  dt_env_url   = var.dynatrace_url
-  dt_api_token = var.dynatrace_api_token
-}
